@@ -1,0 +1,177 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+    background-color: #eaeaea;
+}
+/* titre*/
+h1,h2,h3,h4,h5,h6,p,li,span,a{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    margin: 30px 0;
+    font-size: 24px;
+}
+h2{
+   font-size: 22px; 
+}
+/* navigation*/
+.navbar{
+        min-height: 80px;
+    }
+nav ul a, h1,h2,.copyright{
+    
+    color:#e95d0f !important;
+}
+nav ul a:hover{
+    
+    color:white!important;
+}
+/* slider*/
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-primary{
+        background-color: #eaeaea  !important;
+        border-color: #d4d4d4;
+}
+.btn-primary:hover{
+   
+        border-color:#e95d0f;
+}
+.btn-primary:focus{
+    border-color:#e95d0f !important;
+    
+}
+.btn-secondary {
+    color: #d8d8d8 !important;}
+btn{
+    
+    background-color: #e95d0f !important;
+}
+
+.card-footer {
+    margin: auto;
+    padding: .75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0);
+ border-top: 0px solid rgba(0,0,0,.125);
+    
+}
+#titre-about{
+     margin-top: 70px;   
+}
+
+.about span {
+    color: red;
+    font-weight: bold;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.contact{
+    
+    border-color: #e95d0f !important;
+}
+.contact h3,.form h3 ,a{
+    
+     color:#e95d0f !important;
+}
+a:hover{
+   
+    text-decoration: none
+    
+    
+}
+li{
+    
+    list-style: none;
+}
+
+
+.formadressefooter,.formcontactfooter{
+    color:white;
+    font-size: 12px;
+    
+}
+body {
+       padding-top: 3.5%;
+          
+  }
+#cookieChoiceInfo a{
+    
+    color: #000 !important;
+}
+.img-mob{
+    display: none;
+}
+
+ .horairesmall{
+        display: none
+    }
+.horairelarge{
+        display: block
+    }
+@media (max-width: 992px) {
+
+  
+    .logo{
+        display:none;
+    }
+    
+    .formcontactfooter{
+        
+        margin-top: 2.5em;
+    }
+    .navbar{
+        min-height: 40px;
+    }
+    .img-web{
+    display: none;
+}
+    .img-mob{
+    display: block;
+}
+    #sitemap{
+        display:none;
+    }
+    p,h6,li{
+       font-size: 14px; 
+    }
+    
+@media only screen and (max-device-width:680px) {
+
+
+    .navbar{
+        min-height: 40px;
+    }
+    .map{
+        width:95%;
+        height: 100%;
+    }
+    .horairesmall{
+        display: block
+    }
+        .horairelarge{
+        display: none
+    }
+    .contact{
+        width: 90%;
+    }
+}
+
+
+
+
